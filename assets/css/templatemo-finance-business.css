@@ -242,6 +242,18 @@ header {
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
+
+.navbar-logo img{
+	
+	display: block;
+	width: 145px;
+	height: 145px;
+	margin-top: 12px;
+	float: left;
+	outline: none;
+
+}
+
 header .navbar {
 	padding: 20px 0px;
 }
@@ -272,7 +284,7 @@ header .navbar {
 	margin-top: 12px;
 	outline: none;
 }
-.navbar .navbar-brand h2 {
+.navbar .navbar-brand .navbar-logo h2 {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -387,15 +399,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/tractor.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/water.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/field.jpg);
 }
 
 .Modern-Slider .NextArrow{
